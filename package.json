@@ -2,7 +2,7 @@
   "name": "@_linked/owl",
   "displayName": "Web Ontology Language",
   "license": "UNLICENSED",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "linkedPackage": true,
   "author": {
     "name": "René Verheij",
