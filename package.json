@@ -34,6 +34,7 @@
   "exports": {
     ".": {
       "types": "./lib/esm/index.d.ts",
+      "development": "./src/index.tsx",
       "import": "./lib/esm/index.js",
       "require": "./lib/cjs/index.js"
     },
