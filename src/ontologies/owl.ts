@@ -5,9 +5,6 @@ import * as _this from './owl.js';
 
 const dataFile = '../data/owl.json';
 export const loadData = () => {
-  if (typeof module !== 'undefined' && typeof exports !== 'undefined') {
-    return import('../data/owl.json');
-  }
   //@ts-ignore
   return import('../data/owl.json', { with: { type: 'json' } }).then(
     (data) => data.default
