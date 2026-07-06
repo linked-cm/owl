@@ -4,13 +4,14 @@
   "license": "UNLICENSED",
   "version": "1.0.2",
   "linkedPackage": true,
+  "type": "module",
   "author": {
     "name": "René Verheij",
     "url": "https://github.com/flyon",
     "email": "rpwverheij@gmail.com"
   },
-  "main": "lib/cjs/index.js",
-  "types": "dist/lincd-owl.d.ts",
+  "main": "lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "scripts": {
     "start": "npm exec linked dev",
     "build": "yarn linked build",
@@ -35,20 +36,17 @@
     ".": {
       "types": "./lib/esm/index.d.ts",
       "development": "./src/index.tsx",
-      "import": "./lib/esm/index.js",
-      "require": "./lib/cjs/index.js"
+      "import": "./lib/esm/index.js"
     },
     "./*.js": {
       "types": "./lib/esm/*.d.ts",
       "development": "./src/*.ts",
-      "import": "./lib/esm/*.js",
-      "require": "./lib/cjs/*.js"
+      "import": "./lib/esm/*.js"
     },
     "./*": {
       "types": "./lib/esm/*.d.ts",
       "development": "./src/*.ts",
-      "import": "./lib/esm/*.js",
-      "require": "./lib/cjs/*.js"
+      "import": "./lib/esm/*.js"
     }
   },
   "typesVersions": {
