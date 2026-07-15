@@ -1,5 +1,11 @@
 # @\_linked/owl
 
+## 1.1.0
+
+### Minor Changes
+
+- [`206ba66`](https://github.com/linked-cm/owl/commit/206ba66b825e4cd892a1665c40fd4f3f2737f795) - ESM-only. Dropped the CommonJS build; ships ES modules only (`type: module`, no `require` export condition, no `lib/cjs`). Fixed the root `types` field. CJS consumers on Node 22+ can `require()` it (sync ESM) or use dynamic `import()`.
+
 ## 1.0.3
 
 ### Patch Changes
