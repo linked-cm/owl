@@ -1,5 +1,11 @@
 # @\_linked/owl
 
+## 1.4.1
+
+### Patch Changes
+
+- [#33](https://github.com/linked-fw/owl/pull/33) [`c5e1919`](https://github.com/linked-fw/owl/commit/c5e1919465ddbeb2c9289ac772537df255782c4d) Thanks [@flyon](https://github.com/flyon)! - Sourcemaps now embed their TypeScript source, so consumers no longer see 'points to missing source files' warnings.
+
 ## 1.4.0
 
 ### Minor Changes
