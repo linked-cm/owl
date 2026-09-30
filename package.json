@@ -3,7 +3,7 @@
   "displayName": "Web Ontology Language",
   "license": "UNLICENSED",
   "version": "1.4.2",
-  "packageManager": "npm@11.20.0",
+  "packageManager": "npm@12.1.0",
   "linkedPackage": true,
   "type": "module",
   "author": {
