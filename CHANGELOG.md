@@ -1,5 +1,11 @@
 # @\_linked/owl
 
+## 1.4.2
+
+### Patch Changes
+
+- [#41](https://github.com/linked-fw/owl/pull/41) [`0a33cd4`](https://github.com/linked-fw/owl/commit/0a33cd4e53d82e3631cc5fbdeab44e7ab4ce4dc8) Thanks [@flyon](https://github.com/flyon)! - Add `shapes/index`, a side-effect-only module that registers every shape this package defines, and have the package entry import it instead of listing shapes one by one. Hosts and consumers can now load `@_linked/owl/shapes/index` to get the package's full shape set registered without pulling in anything else, and a shape added later is picked up by the entry automatically.
+
 ## 1.4.1
 
 ### Patch Changes
