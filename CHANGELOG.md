@@ -1,5 +1,11 @@
 # @\_linked/owl
 
+## 1.4.3
+
+### Patch Changes
+
+- [#49](https://github.com/linked-fw/owl/pull/49) [`fb5e6b8`](https://github.com/linked-fw/owl/commit/fb5e6b8b83cdb205c1771b5211b6f9ad1486eac5) Thanks [@flyon](https://github.com/flyon)! - Publish only the files consumers need; the tarball no longer includes `.changeset/`, `.gitattributes`, `.github/`, `renovate.json`, `test/` or tsconfig files.
+
 ## 1.4.2
 
 ### Patch Changes
