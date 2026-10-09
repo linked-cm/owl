@@ -1,5 +1,11 @@
 # @\_linked/owl
 
+## 1.4.4
+
+### Patch Changes
+
+- [#52](https://github.com/linked-fw/owl/pull/52) [`f591e59`](https://github.com/linked-fw/owl/commit/f591e59d47fd190b161493abb3350835421d5451) Thanks [@flyon](https://github.com/flyon)! - Build with `linked build` instead of a hand-rolled `tsc` + `copyfiles` script, and drop the `rimraf`/`copyfiles` devDependencies. The published `lib/` output is unchanged. Declares `@types/node` as a devDependency, which the compile needs and previously only received transitively, and drops the unused `react`/`react-dom` entries from the tsconfig `types` list.
+
 ## 1.4.3
 
 ### Patch Changes
