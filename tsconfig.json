@@ -12,9 +12,7 @@
     "pretty": true,
     "jsx": "react",
     "types": [
-      "node",
-      "react",
-      "react-dom"
+      "node"
     ],
     "plugins": [
       {
